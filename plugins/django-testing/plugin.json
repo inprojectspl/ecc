@@ -1,0 +1,11 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "django-testing",
+  "version": "1.0.0",
+  "description": "Django and DRF testing with PostgreSQL, migrations, authentication and transaction boundaries.",
+  "author": {
+    "name": "inprojects"
+  },
+  "repository": "https://github.com/inprojectspl/ecc",
+  "license": "MIT"
+}
