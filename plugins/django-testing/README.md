@@ -2,7 +2,7 @@
 
 This inprojects distribution contains only the adapted `django-tdd` skill and its references, plus required manifests, provenance, and the upstream MIT license. It does not include ECC hooks, MCP configuration, agents, or other skills.
 
-Plugin identifier: `django-testing`. Skill identifier: `django-tdd`. Version: `1.0.0`. Fork tag: `inprojects-v1.0.0`. Marketplace integrations must use the `plugins/django-testing` subdirectory of the pinned fork, not the ECC repository root.
+Plugin identifier: `django-testing`. Skill identifier: `django-tdd`. Version: `1.0.1`. Fork tag: `inprojects-v1.0.1`. Marketplace integrations must use the `plugins/django-testing` subdirectory of the pinned fork, not the ECC repository root.
 
 Canonical instructions live at `skills/django-tdd` in the fork. Run `python3 scripts/package_django_plugin.py` after changes and `python3 scripts/package_django_plugin.py --check` before release. Generated files under this plugin are committed so clients do not execute packaging code during installation.
 

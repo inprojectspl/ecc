@@ -2,7 +2,7 @@
 
 ## Scope and provenance
 
-This fork packages `plugins/django-testing` version 1.0.0 from canonical `skills/django-tdd`. Its release tag is `inprojects-v1.0.0`, independent of ECC releases. The base upstream commit is [`ef648e01899ba3e8dc6371642deaaf64b4477775`](https://github.com/affaan-m/ecc/commit/ef648e01899ba3e8dc6371642deaaf64b4477775).
+This fork packages `plugins/django-testing` version 1.0.1 from canonical `skills/django-tdd`. Its release tag is `inprojects-v1.0.1`, independent of ECC releases. The base upstream commit is [`ef648e01899ba3e8dc6371642deaaf64b4477775`](https://github.com/affaan-m/ecc/commit/ef648e01899ba3e8dc6371642deaaf64b4477775).
 
 The original MIT license remains intact. `django-tdd` is retained as the descriptive skill identifier so users can trace the adaptation. The upstream adaptation policy governs imports into ECC; this distribution is an explicitly requested fork adaptation, not a newly branded upstream ECC contribution.
 

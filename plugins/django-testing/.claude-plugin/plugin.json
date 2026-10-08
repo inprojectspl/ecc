@@ -1,6 +1,6 @@
 {
   "name": "django-testing",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Django and DRF testing with PostgreSQL, migrations, authentication and transaction boundaries.",
   "author": {
     "name": "inprojects"
