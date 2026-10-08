@@ -1,6 +1,6 @@
 ---
 name: django-tdd
-description: Plan, write, and review Django and Django REST Framework tests using pytest-django or Django test classes. Use for Django models, migrations, transactions, authentication, and API permissions; inspect the project's Django stack before applying these patterns.
+description: Plan, write and review Django and Django REST Framework tests using pytest-django or Django test classes. Use for tests of Django models, migrations, transactions, authentication and API permissions, including test-first changes and flaky database tests; inspect the project's Django stack before applying these patterns. Also use for Polish requests such as "testy Django", "testy DRF", "testy migracji" or "testy uprawnień API".
 metadata:
   origin: ECC
   adapted-by: inprojects
@@ -41,4 +41,4 @@ The Django client is in-process and does not prove browser behavior. Mock extern
 
 Run the focused tests, then the related checks justified by changed behavior. Record the command, versions, database backend, pass/fail counts, and anything not executed. If a prerequisite is missing, report that boundary rather than substituting SQLite, bypassing authentication, disabling migrations, or claiming success from inspection.
 
-This fork's executable examples live in the repository's `evals/django-testing`; they validate selected recipes, not the effectiveness of every agent invocation or an application's complete security.
+This fork's executable examples are in the source repository's [evals/django-testing](https://github.com/inprojectspl/ecc/tree/inprojects-v1.0.1/evals/django-testing), which is not part of the installed plugin; they validate selected recipes, not the effectiveness of every agent invocation or an application's complete security.
